@@ -9,7 +9,7 @@ int main() {
     cout << "Enter a positive integer or number: ";
     cin >> num;
 
-    // Check if the number is a three-digit number using the && operator
+
     if (num >= 100 && num <= 999) {
         cout << "The number " << num << " is a three-digit number." << endl;
         
