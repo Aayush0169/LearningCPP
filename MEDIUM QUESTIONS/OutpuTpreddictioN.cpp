@@ -7,7 +7,7 @@ int main() {
     while (j <= 10) //condition for loop
     {
         cout << j << endl; //'j' will be prited
-        j = j + 1; //1 will be added in value of 'j' each time
+        j = j + 1; //1 will be added in value of 'j' each time;
     }
     return 0;
 }

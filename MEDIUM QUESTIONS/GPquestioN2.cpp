@@ -7,6 +7,7 @@ int main (){
     int n;
     cout<<"enter the number of terms you want to print:"<<endl;
     cin>>n;
+    
     cout<<"The GP is:"<<endl;
     for (int i = 0; i < n; i++)
     {

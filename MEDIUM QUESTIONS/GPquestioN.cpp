@@ -7,6 +7,7 @@ int b=2;
 int n;
 cout<<"enter the number of terms you want to print the GP:"<<endl;
 cin>>n;
+
 for (int i = 0; i <= n; i++)
 {
     cout<<a<<endl;
