@@ -1,3 +1,4 @@
+
 //PRINT THE STAR CROSS PATTERN
 #include <iostream>
 using namespace std;
