@@ -11,7 +11,7 @@ int main ()
     cout<<"Enter the second number:"<<endl;
     cin>>*point2;
     sum=(*point1)+(*point2);
-    cout<<"The Sum is "<<sum<<endl;
+    cout<<"The Sum of "<<num1<<" and "<<num2<<" is "<<sum<<" .";
     return 0;
   
 }
