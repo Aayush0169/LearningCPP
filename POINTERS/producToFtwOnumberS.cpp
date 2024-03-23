@@ -7,11 +7,11 @@ int main() {
    int *p=&a;
    int*q=&b;
    cout<<"Enter the first number"<<endl;
-   cin>>a;
+   cin>>*p;
    cout<<"Enterthe second number"<<endl;
-   cin>>b;
+   cin>>*q;
    int product;
    product= (*p)*(*q);
-   cout<<"The product of "<<a<<" and "<<b<<" is "<<product;
+   cout<<"The product of  "<<a<<" and "<<b<<" is "<<product;
     return 0;
 }
