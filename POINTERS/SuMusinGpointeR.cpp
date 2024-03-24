@@ -10,8 +10,9 @@ int main ()
     cin>>*point1;
     cout<<"Enter the second number:"<<endl;
     cin>>*point2;
+    
     sum=(*point1)+(*point2);
     cout<<"The Sum of "<<num1<<" and "<<num2<<" is "<<sum<<" .";
     return 0;
-  
+
 }
