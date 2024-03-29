@@ -1,7 +1,7 @@
 /*
 this proggramme is for the  finding max element in an array
 */
-//printing sum of an array
+
 #include<iostream>
 using namespace std;
 int main(){
