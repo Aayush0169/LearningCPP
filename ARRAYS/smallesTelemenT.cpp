@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int size=10;
-    int arr[size],  i, s;
+    int arr[size],  i, smallest;
 
     
 
@@ -12,13 +12,13 @@ int main() {
     for (i = 0; i < size; i++)
         cin >> arr[i];
 
-    s = arr[0]; // Assume the first element is the smallest
+    smallest = arr[0]; 
 
     for (i = 1; i < size; i++) {
-        if (s > arr[i])
-            s = arr[i]; // Update s if a smaller element is found
+        if (smallest > arr[i])
+            smallest = arr[i]; 
     }
 
-    cout << "\nSmallest Number = " << s << endl;
+    cout << "Smallest Number = " << smallest << endl;
     return 0;
 }
