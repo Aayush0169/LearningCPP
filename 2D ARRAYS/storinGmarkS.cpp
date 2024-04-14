@@ -9,7 +9,7 @@ int main() {
    
     int studentData[STUDENTS][2];
     
-    // Input data from user
+  
     for(int i = 0; i < STUDENTS; ++i) {
         cout << "Enter roll number for student " << i + 1 << ": ";
         cin >> studentData[i][0];
@@ -17,7 +17,7 @@ int main() {
         cin >> studentData[i][1];
     }
     
-    // Display the matrix
+   
     cout << "\nRoll Number\tMarks" << endl;
     for(int i = 0; i < STUDENTS; ++i) {
         cout << studentData[i][0] << "\t\t" << studentData[i][1] << endl;
