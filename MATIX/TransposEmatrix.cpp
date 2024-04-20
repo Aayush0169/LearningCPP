@@ -12,7 +12,7 @@ int main() {
     // Get the number of rows and columns from the user
     cout << "Enter the number of rows: ";
     cin >> rows;
-    cout << "Enter the number of columns: ";
+    cout  << "Enter the number of columns: ";
     cin >> cols;
 
     // Initialize the original matrix
