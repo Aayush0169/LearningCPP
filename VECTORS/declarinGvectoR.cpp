@@ -7,7 +7,7 @@ int main(){
    cout<<"size is :"<<vec.size()<<endl<<endl;
    cout<<"capacity is :"<<vec.capacity()<<endl<<endl;
    cout<<"The elements are:"<<endl;
-   for(int elements : vec){
+   for(int elements :vec){
     cout<<elements<<" ";
    }
 
