@@ -26,10 +26,10 @@ int main() {
 
     length = inputStr.length();
 
-    // Check if the entered string has the desired length (n)
+    
     if (length != n) {
         cout << "The entered string does not have length " << n << "." << endl;
-        return 1;  // Indicate error
+        return 1;  
     }
 
     int vowelCount = countVowels(inputStr);
