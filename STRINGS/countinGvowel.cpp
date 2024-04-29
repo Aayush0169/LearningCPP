@@ -19,17 +19,17 @@ int countVowels(const string& str) {
 
 int main() {
     string inputStr;
-    int length;
+    int n; // User-defined string length
 
     cout << "Enter a string: ";
     getline(cin, inputStr);
 
-    length = inputStr.length();
+    cout << "Enter the desired string length: ";
+    cin >> n;
 
-    
-    if (length != n) {
+    if (inputStr.length() != n) {
         cout << "The entered string does not have length " << n << "." << endl;
-        return 1;  
+        return 1;
     }
 
     int vowelCount = countVowels(inputStr);
@@ -37,3 +37,4 @@ int main() {
 
     return 0;
 }
+
