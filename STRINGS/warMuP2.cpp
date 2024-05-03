@@ -28,12 +28,13 @@ int main() {
     char mostFrequentChar = 'a';
     int maxFrequency = 0;
 
-    // Find the character with the highest frequency
+    // Finding  the character with the highest frequency
     for(auto& pair : frequencyMap) {
         if(pair.second > maxFrequency || (pair.second == maxFrequency && pair.first < mostFrequentChar)) {
             mostFrequentChar = pair.first;
             maxFrequency = pair.second;
         }
+
     }
 
     cout << "The character that occurs the most number of times is: " << mostFrequentChar << endl;
